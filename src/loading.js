@@ -16,14 +16,21 @@ const defaultOptions = {
 export default class Loading extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isStopped: false, isPaused: false };
+    this.state = {
+      done: undefined
+    };
   }
 
   componentDidMount() {
     setTimeout(() => {
       fetch("https://jsonplaceholder.typicode.com/posts")
         .then(response => response.json())
-        .then(json => this.setState({ done: true }));
+        .then(json => {
+          this.setState({ loading: true });
+          setTimeout(() => {
+            this.setState({ done: true });
+          }, 2000);
+        });
     }, 1200);
   }
 
@@ -31,12 +38,12 @@ export default class Loading extends React.Component {
     return (
       <div>
         {!this.state.done ? (
-            <div style={{ textAlign: 'center', marginTop: '300px', fontSize: '48px', marginBottom: '600px' }}>
+            <div style={{ textAlign: 'center', marginTop: '300px', fontSize: '48px' }}>
               <h1>Fetching Data</h1>
-              <Lottie options={defaultOptions} height={120} width={120} isStopped={this.state.isStopped} isPaused={this.state.isPaused} />
+              <Lottie options={defaultOptions} height={120} width={120} />                      
             </div>
         ) : (
-          <App />
+            <App />
         )}
       </div>
     );
