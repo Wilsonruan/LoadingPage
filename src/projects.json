@@ -1,0 +1,56 @@
+[
+  {
+    "name": "ShopSmart",
+    "technologies": "MongoDB, Express, React, Node",
+    "description": "View and add products into cart. Users can register, sign in and sign out.",
+    "image": "/static/media/ShopSmart.6fe10698.jpg",
+    "github": "https://github.com/Wilsonruan/ShopSmart2.0",
+    "website": "https://my-shopsmart-app.herokuapp.com/",
+    "rotate": "rotate(7deg)"
+  },
+  {
+    "name": "Employee Directory",
+    "technologies": "React.JS, Node, Material UI",
+    "description": "Employee Directory can search for employee names by alphabetical or numerical",
+    "image": "/static/media/Employee-Directory.3f42de88.jpg",
+    "github": "https://github.com/Wilsonruan/Employee-Directory",
+    "website": "https://wilsonruan.github.io/Employee-Directory/",
+    "rotate": "rotate(-7deg)"
+  },
+  {
+    "name": "Code Quiz",
+    "technologies": "Javascript, jQuery, HTML",
+    "description": "Code Quiz offer 4 different coding quizzes.",
+    "image": "/static/media/Code-Quiz.858c2088.jpg",
+    "github": "https://github.com/Wilsonruan/4-Code-Quiz",
+    "website": "https://wilsonruan.github.io/4-Code-Quiz",
+    "rotate": "rotate(7deg)"
+  },
+  {
+    "name": "Note Taker",
+    "technologies": "Express, JavaScript, HTML",
+    "description": "Note Taker allows users to input notes and delete it.",
+    "image": "/static/media/Note-Taker.caab9183.jpg",
+    "github": "https://github.com/Wilsonruan/Note-Taker",
+    "website": "https://note-taker-heroku-wilson.herokuapp.com/",
+    "rotate": "rotate(-7deg)"
+  },
+  {
+    "name": "Budget Tracker",
+    "technologies": "MongoDB, Express.js, Node.js",
+    "description": "Budget Tracker allows users to input debit or credit. The total balance will be shown on top.",
+    "image": "/static/media/Budget-Trackers.c971c874.jpg",
+    "github": "https://github.com/Wilsonruan/Budget-Trackers",
+    "website": "https://powerful-escarpment-11883.herokuapp.com/",
+    "rotate": "rotate(7deg)"
+  },
+  {
+    "name": "Flight Search",
+    "technologies": "Bootstrap, jQuery, API",
+    "description": "Flight Search allows users to search for one-way or two-way flights.",
+    "image": "/static/media/Flight-Search.364afaa7.png",
+    "github": "https://github.com/Wilsonruan/Flight-Search",
+    "website": "https://wilsonruan.github.io/Flight-Search",
+    "rotate": "rotate(-7deg)"
+  }
+]
